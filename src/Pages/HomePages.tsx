@@ -1,11 +1,15 @@
-import Product from "../Components/Product";
+import Product from "../Pages/Product";
+
 
 const HomePages = () => {
   return (
-    <div className="text-2xl font-bold text-center mt-10">
-      Demo sản phẩm
-      <Product />
-    </div>
+    <>
+      <div className="text-2xl font-bold text-center mt-10">
+        Demo sản phẩm
+        <Product />
+      </div>
+
+    </>
   );
 };
 
